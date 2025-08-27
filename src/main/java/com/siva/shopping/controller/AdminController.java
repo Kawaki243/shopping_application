@@ -242,7 +242,7 @@ public class AdminController {
 				model.addAttribute("currentPage", pageNo);
 				model.addAttribute("totalPages", page.getTotalPages());
 				model.addAttribute("categories", page.getContent());
-				return "/Admin/Category";
+				return "Admin/Category";
 			}
 			else {	
 				return "redirect:/admin/home";
@@ -300,7 +300,7 @@ public class AdminController {
 			Category category = categoryService.getCategoryById(id);
 			if (category!=null) {
 				model.addAttribute("category", category);
-				return "/Admin/EditCategory";
+				return "Admin/EditCategory";
 			}
 			else {
 				session.setAttribute("errorInfo", "this id is not present");

@@ -22,7 +22,11 @@ com\siva\shopping\model\Category.class
 com\siva\shopping\model\OrderRequest.class
 com\siva\shopping\repository\UserRepository.class
 com\siva\shopping\service\IProductOrderServiceImpl.class
+com\siva\shopping\errors\CustomException.class
 com\siva\shopping\service\ICategoryServiceImpl.class
+com\siva\shopping\errors\GlobalExceptionHandler.class
+com\siva\shopping\controller\CustomErrorController.class
+com\siva\shopping\errors\ErrorResponse.class
 com\siva\shopping\model\Product.class
 com\siva\shopping\service\IAdminServiceImpl.class
 com\siva\shopping\repository\CartRepository.class
