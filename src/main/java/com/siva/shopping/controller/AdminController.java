@@ -135,7 +135,7 @@ public class AdminController {
 				model.addAttribute("currentPage", pageNo);
 				model.addAttribute("totalPages", page.getTotalPages());
 				model.addAttribute("products", page.getContent());
-				return "/Admin/Products";
+				return "Admin/Products";
 			}
 			else {
 				return "redirect:/admin/home";
