@@ -10,7 +10,13 @@ For admin, The application offers a powerful backend system to manage products, 
 - **Database:** 🗄️ MySQL  
 - **Build Tool:** 🛠️ Spring Tool Suite 
 
-## 🚀 Features
+## 🌐 Live Demo
+ - Try out the application here: [My Shopping Application Demo](https://myshopping-production.up.railway.app/).
+ - 🧠 Remember to login to **Admin** page by using **👑 Admin Account** to add **Category**, **Products** before creating your **User Account**.
+   
+## 👑 Admin Account :
+ - Email : **phamduc2432002@gmail.com**
+ - Password : **0VL.-U1lT}29**
 
 ### 👤 User Features
 - 🔑 **User Registration & Login:** Secure authentication with password reset via email & mobile.
